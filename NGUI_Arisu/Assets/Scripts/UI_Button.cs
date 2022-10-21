@@ -6,6 +6,8 @@ public class UI_Button : MonoBehaviour
 {
     public GameObject Invoker;
     public string method;
+    public MainFlowController.MainPage page;
+    
 
     public Color pressColor;
     UITexture uITexture;
@@ -25,7 +27,7 @@ public class UI_Button : MonoBehaviour
     {
         if (!isPress)
         {
-            Invoker.SendMessage(method, isPress);
+            Invoker.SendMessage(method, page);
             print("11" + isPress);
         }
         
