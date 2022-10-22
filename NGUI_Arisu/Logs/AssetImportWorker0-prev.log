@@ -1,0 +1,471 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16125 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/NGUI_UNITY/NGUI_Arisu
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60158
+Successfully changed project path to: C:/NGUI_UNITY/NGUI_Arisu
+C:/NGUI_UNITY/NGUI_Arisu
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 56.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/NGUI_UNITY/NGUI_Arisu/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002213 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (633ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (482ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (193ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Domain Reload Profiling:
+	ReloadAssembly (894ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2469 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.2 MB.
+System memory in use after: 111.2 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2899.
+Total: 2.597000 ms (FindLiveObjects: 0.152500 ms CreateObjectMapping: 0.048500 ms MarkObjects: 2.220800 ms  DeleteObjects: 0.163300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Image/2. Contents/2. SuriGame
+  artifactKey: Guid(08b2552edbb686a4fbaf1391b454bfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/2. SuriGame using Guid(08b2552edbb686a4fbaf1391b454bfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b9dac058a720be95dada7db5057fda') in 0.007485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 485.987735 seconds.
+  path: Assets/Prefabs/Game/SuriGame.prefab
+  artifactKey: Guid(e72a44005f8a0604d8216c4bd1537bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/SuriGame.prefab using Guid(e72a44005f8a0604d8216c4bd1537bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeeaa9b5e2e3f0cf0007582e4cdb4300') in 0.071878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.273718 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card1_empty.png
+  artifactKey: Guid(fa764d338874cc44c90dde84454f029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card1_empty.png using Guid(fa764d338874cc44c90dde84454f029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591da25759e48799a497e22ceb7258af') in 0.084667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_15.png
+  artifactKey: Guid(13e9341032a613d4386899d6ef6be2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_15.png using Guid(13e9341032a613d4386899d6ef6be2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7003dc9dc4e7c75e63b494ce0f77574b') in 0.035298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_16.png
+  artifactKey: Guid(46020de0717606a4b8bbeefc211dd484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_16.png using Guid(46020de0717606a4b8bbeefc211dd484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9982e7e1c1fdfa54f46b9c8dc4728a9b') in 0.021777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_4.png
+  artifactKey: Guid(9bedd4dd8abfda646b37b930778a73f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_4.png using Guid(9bedd4dd8abfda646b37b930778a73f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612d7578706c0878b9732a8ea25ba7ed') in 0.044250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_19.png
+  artifactKey: Guid(77080dd7378215a43a7fe3244e739aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_19.png using Guid(77080dd7378215a43a7fe3244e739aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b3803d8e4948d9a6daea716f16a13a') in 0.032320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_11.png
+  artifactKey: Guid(14e57b63d5da6dc4b9899f9b154a9f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_11.png using Guid(14e57b63d5da6dc4b9899f9b154a9f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1ab1dd736d66f3b61ea9455998a009') in 0.039817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_2.png
+  artifactKey: Guid(6b2690fa3f5d45d43aa4e150d986a238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_2.png using Guid(6b2690fa3f5d45d43aa4e150d986a238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5239dfbd3b9b685019ed740c599980c1') in 0.019880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_3.png
+  artifactKey: Guid(4b233eda03c5057468d0e5f664e4f275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_3.png using Guid(4b233eda03c5057468d0e5f664e4f275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b30b97ff94e6218607c07665887775') in 0.029653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_20.png
+  artifactKey: Guid(3deace70f394505418f8ad70dcf5fb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_20.png using Guid(3deace70f394505418f8ad70dcf5fb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c3c758d69997fc2f7f63877b3f9a9c') in 0.025076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_5.png
+  artifactKey: Guid(86a4810a7127f4e4fa058e65ce4168e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_5.png using Guid(86a4810a7127f4e4fa058e65ce4168e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd279de9d7121758a32d18fcee7448ebc') in 0.023933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_18.png
+  artifactKey: Guid(70e6dcecb32581346a90ca84856996c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_18.png using Guid(70e6dcecb32581346a90ca84856996c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3543c22d4b6dab5db5cebf8b8808dc') in 0.021221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_1.png
+  artifactKey: Guid(019c7321c01748e48b4e63a5169ef1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_1.png using Guid(019c7321c01748e48b4e63a5169ef1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb34c926c613c2a2a126ee6ec5d28ee') in 0.030158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/character_icon_act3.png
+  artifactKey: Guid(76c11fe3cc93e354e9a2f87fc38a23a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/character_icon_act3.png using Guid(76c11fe3cc93e354e9a2f87fc38a23a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98484c00c67573d3346fd56a0e32698') in 0.025243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/Rectangle 1.png
+  artifactKey: Guid(10a249458c518194998ebdae30d8d500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/Rectangle 1.png using Guid(10a249458c518194998ebdae30d8d500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289c7e0eb93cb388426e94aef6f420fe') in 0.025062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_8.png
+  artifactKey: Guid(120cc59d37b042e4d9ad7ce3f554ef73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_8.png using Guid(120cc59d37b042e4d9ad7ce3f554ef73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5691db425aebf16af356a99375c879e') in 0.023148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_13.png
+  artifactKey: Guid(5b2883e062fe4b746901048f22f65221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_13.png using Guid(5b2883e062fe4b746901048f22f65221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8c11daec0f69f613a0c8f2dcc493df') in 0.020390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_9.png
+  artifactKey: Guid(f5c62647ac0e68c4da371b2eda8cd850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_9.png using Guid(f5c62647ac0e68c4da371b2eda8cd850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51460928dbe4e0d5adc4ba51304e9e97') in 0.030188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_17.png
+  artifactKey: Guid(7f76f5bb4528b6941ba75bcb08aadcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_17.png using Guid(7f76f5bb4528b6941ba75bcb08aadcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d6e0ac50320f4b16cf95744b53ad89') in 0.030669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_6.png
+  artifactKey: Guid(073fe16bc7c20a44b85cbc904ce5e5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_6.png using Guid(073fe16bc7c20a44b85cbc904ce5e5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030daba68547733152179723b8f4e054') in 0.030996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_7.png
+  artifactKey: Guid(9ad37268fab2f3a4e906ed811d02c4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_7.png using Guid(9ad37268fab2f3a4e906ed811d02c4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3529fecd72d5e78d95506b0fd176551') in 0.021093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card2_empty.png
+  artifactKey: Guid(206f7a97dbddae842804ea66e10f116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card2_empty.png using Guid(206f7a97dbddae842804ea66e10f116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ecc079f60ba3f72eb6eb75a787d16f') in 0.025904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_10.png
+  artifactKey: Guid(caaa7989db595be44ab696b6d58a9bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_10.png using Guid(caaa7989db595be44ab696b6d58a9bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb86a5af38411723fec7bcaba7533d6') in 0.024084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_12.png
+  artifactKey: Guid(234580badd53c814b81914fc04ee72f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_12.png using Guid(234580badd53c814b81914fc04ee72f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e0a95cd97e787272dd7f4496f37bc5') in 0.024251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Image/2. Contents/3. YeoniGame/act3_card3_14.png
+  artifactKey: Guid(be918ddf7b1aece49bf38aa3735b2f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/2. Contents/3. YeoniGame/act3_card3_14.png using Guid(be918ddf7b1aece49bf38aa3735b2f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d2e90b6c0b4813616cf9c57e606e0a') in 0.021425 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (752ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2434 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.2 MB.
+System memory in use after: 111.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2914.
+Total: 3.656900 ms (FindLiveObjects: 0.176000 ms CreateObjectMapping: 0.077300 ms MarkObjects: 3.235200 ms  DeleteObjects: 0.167500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1584.501770 seconds.
+  path: Assets/Prefabs/Main/Castle
+  artifactKey: Guid(70284ef9e84dadc4c89bf90f55818977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle using Guid(70284ef9e84dadc4c89bf90f55818977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23f05c180499e230281266ba6f115cd') in 0.013693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.533623 seconds.
+  path: Assets/Prefabs/Main/Castle/Lock
+  artifactKey: Guid(ef7622d00513ba543839d59e429bd9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Lock using Guid(ef7622d00513ba543839d59e429bd9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd05eab0294afc0938349f546981a71f') in 0.007146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.078705 seconds.
+  path: Assets/Prefabs/Main/Castle/Glow
+  artifactKey: Guid(88b28f73ec1a3824cac73971091e8619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Glow using Guid(88b28f73ec1a3824cac73971091e8619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883223c1d6529223e779b72229fb44a9') in 0.006490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.057331 seconds.
+  path: Assets/Prefabs/Main/Castle/Open
+  artifactKey: Guid(cde3d21b8c726b0458ea9201a718ef28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Open using Guid(cde3d21b8c726b0458ea9201a718ef28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91e361964dc9a2742f8905736934f40') in 0.008160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.015543 seconds.
+  path: Assets/Prefabs/Main/Castle/Lock/AriCastle.prefab
+  artifactKey: Guid(63953a535aad467409d208a931ec8b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Lock/AriCastle.prefab using Guid(63953a535aad467409d208a931ec8b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2aeeea6e3d741a2e1e821ac4076e3b6') in 0.032862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.986155 seconds.
+  path: Assets/Prefabs/Main/Castle/Lock/SuriCastle.prefab
+  artifactKey: Guid(8b3d5bc1785c94a4f91136d711698a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Lock/SuriCastle.prefab using Guid(8b3d5bc1785c94a4f91136d711698a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae99763162b45000142027d5ccff234') in 0.009904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.823919 seconds.
+  path: Assets/Prefabs/Main/Castle/Lock/YeoniCastle.prefab
+  artifactKey: Guid(0c456a536fc55454f90ac61d649ea751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Lock/YeoniCastle.prefab using Guid(0c456a536fc55454f90ac61d649ea751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714422b3158caafbfbb1788cf2db0bb1') in 0.010825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.195800 seconds.
+  path: Assets/Prefabs/Main/Castle/Lock/SaniCastle.prefab
+  artifactKey: Guid(6abf5eafcc545ca4a8972b9aa6f7e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Lock/SaniCastle.prefab using Guid(6abf5eafcc545ca4a8972b9aa6f7e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54a2e8951764ff2a2a729d284f6a5f7') in 0.009194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.917544 seconds.
+  path: Assets/Image/1. Main/7. ArisuCastle
+  artifactKey: Guid(26d84ee4b447f2d4a91511394f474ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/1. Main/7. ArisuCastle using Guid(26d84ee4b447f2d4a91511394f474ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbec605d90e3d3c1c37efc55ba6c0a5b') in 0.006561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.740923 seconds.
+  path: Assets/Prefabs/Main/Castle/Open/SaniCastle (1).prefab
+  artifactKey: Guid(7eda6833314efeb44b190792dd6cf558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Open/SaniCastle (1).prefab using Guid(7eda6833314efeb44b190792dd6cf558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c8b16cba85657ddbcbb97701b96fad') in 0.010140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.890698 seconds.
+  path: Assets/Prefabs/Main/Castle/Open/YeoniCastle (1).prefab
+  artifactKey: Guid(e47f97ac1a163cf4d83e3aa1cb84ac0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Open/YeoniCastle (1).prefab using Guid(e47f97ac1a163cf4d83e3aa1cb84ac0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85eb608228181869a61b859e22cca8c') in 0.009650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.967996 seconds.
+  path: Assets/Prefabs/Main/Castle/Open/SuriCastle (1).prefab
+  artifactKey: Guid(e77ae9adf9382f641bbf9684b137bdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Open/SuriCastle (1).prefab using Guid(e77ae9adf9382f641bbf9684b137bdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d8fc9e82b1c1b0565a0ca484e773aa') in 0.008845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.021521 seconds.
+  path: Assets/Prefabs/Main/Castle/Open/AriCastle (1).prefab
+  artifactKey: Guid(71f59b708bd1cbc408858396f7b2b360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Open/AriCastle (1).prefab using Guid(71f59b708bd1cbc408858396f7b2b360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40d54a5fc614570208e54b3b4bbd19f') in 0.008821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.758815 seconds.
+  path: Assets/Prefabs/Main/ArisuCastle.prefab
+  artifactKey: Guid(6308ef9cb309b894d91feae56fe96de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/ArisuCastle.prefab using Guid(6308ef9cb309b894d91feae56fe96de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fe7db54001c2512529e4e9975fc0f0') in 0.016161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.705446 seconds.
+  path: Assets/Prefabs/Main/Castle/Glow/AriCastle (1).prefab
+  artifactKey: Guid(2b32329399561ef4781679d0eaa2f2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Glow/AriCastle (1).prefab using Guid(2b32329399561ef4781679d0eaa2f2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b468648d79f9ae7f77d88790f50914bf') in 0.005426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.207024 seconds.
+  path: Assets/Prefabs/Main/Castle/Glow/SuriCastle (1).prefab
+  artifactKey: Guid(dac347d38fd5c754fb80c75abd20e5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Glow/SuriCastle (1).prefab using Guid(dac347d38fd5c754fb80c75abd20e5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0f3b4407b8415ce4501dbbd9cbdf17') in 0.006073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.919852 seconds.
+  path: Assets/Prefabs/Main/Castle/Glow/YeoniCastle (1).prefab
+  artifactKey: Guid(64f47bcde22600942bbe4cdbb4b89126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Glow/YeoniCastle (1).prefab using Guid(64f47bcde22600942bbe4cdbb4b89126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978733270098fa61faebc5b0694267ed') in 0.006038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.330985 seconds.
+  path: Assets/Prefabs/Main/Castle/Glow/SaniCastle (1).prefab
+  artifactKey: Guid(8da957f37bdb24b47b179af75f249ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/Castle/Glow/SaniCastle (1).prefab using Guid(8da957f37bdb24b47b179af75f249ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffb26546dc17b1398cc590df43aa50e') in 0.006698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2066.566228 seconds.
+  path: Assets/Prefabs/Main/ArisuCastle.prefab
+  artifactKey: Guid(6308ef9cb309b894d91feae56fe96de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main/ArisuCastle.prefab using Guid(6308ef9cb309b894d91feae56fe96de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54724dcae58f190c0b54f3d130f34b2') in 0.014823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.141223 seconds.
+  path: Assets/Prefabs/Game/YeoniGame.prefab
+  artifactKey: Guid(c6b784b962f59a44e9352e1352d85202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/YeoniGame.prefab using Guid(c6b784b962f59a44e9352e1352d85202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f7b0e24f6d318f5579d24061a2a043') in 0.042190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.001434 seconds.
+  path: Assets/Prefabs/Game/SaniGame.prefab
+  artifactKey: Guid(c032da78ff67fcb4280e7fa0ee6ed031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/SaniGame.prefab using Guid(c032da78ff67fcb4280e7fa0ee6ed031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca0dca50b6904540575b28a55fc789e') in 0.014562 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
